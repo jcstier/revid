@@ -13,7 +13,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public String test(@RequestParam(value = "name", required = false, defaultValue = "blah") String name, Model model) {
-        model.addAttribute("name", name);
+        model.addAttribute("name", name + "blah blah");
         return "test";
     }
 
