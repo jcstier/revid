@@ -1,0 +1,3 @@
+-- Note: JPA turns your camelCased variables into underscore delinated...
+-- So for example  firstName would be first_name.
+insert into revid_user(username, password, first_name,last_name,email) values('chris','chris123','Christopher','Stier','chris@chris.com');
